@@ -28,7 +28,7 @@ public class TestConstructores {
 		if(zoo1.getNombre() == null && zoo2.getNombre().equals("Central park")) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un error en los constructores de la clase Zoologico");
+		assertTrue(ok, "Hay un error en los constructores de la clase gestion.Zoologico");
     }
 	
 	@Test
@@ -43,7 +43,7 @@ public class TestConstructores {
 				&& zona2.getZoo().getNombre() ==  null) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un error en los constructores de la clase Zona");
+		assertTrue(ok, "Hay un error en los constructores de la clase gestion.Zona");
     }
 	
 	@Test
@@ -57,7 +57,7 @@ public class TestConstructores {
 				&& an2.getHabitat().equals("casa") && an2.getGenero().equals("m")) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un error en los constructores de la clase Animal");
+		assertTrue(ok, "Hay un error en los constructores de la clase zooAnimales.Animal");
     }
 	
 	@Test

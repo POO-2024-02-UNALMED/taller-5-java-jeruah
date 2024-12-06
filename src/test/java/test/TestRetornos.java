@@ -49,7 +49,7 @@ public class TestRetornos {
 		if(an2.toString().equals(comp)) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un problema en el metodo toString de la clase Animal");
+		assertTrue(ok, "Hay un problema en el metodo toString de la clase zooAnimales.Animal");
     }
 	
 	@Test
@@ -66,6 +66,6 @@ public class TestRetornos {
 				&& a5.movimiento().equals("reptar")) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un problema en algun metodo movimiento de las subclases y la clase Animal");
+		assertTrue(ok, "Hay un problema en algun metodo movimiento de las subclases y la clase zooAnimales.Animal");
     }
 }
