@@ -43,7 +43,23 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "Mi nombre es "+nombre+", tengo una edad de "+edad+", habito en "+habitat+" y mi genero es "+genero+", la zona en la que me ubico es "+zona.getNombre()+", en el "+zona.getZoo().getNombre()+".";
+        if (zona == null) {
+            return "Mi nombre es "+nombre+", tengo una edad de "+edad+", habito en "+habitat+" y mi genero es "+genero;
+        }else{
+            return "Mi nombre es "+nombre+", tengo una edad de "+edad+", habito en "+habitat+" y mi genero es "+genero+", la zona en la que me ubico es "+zona.getNombre()+", en el "+zona.getZoo().getNombre()+".";
+        }
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+    public int getEdad() {
+        return edad;
+    }
+    public String getHabitat() {
+        return habitat;
+    }
+    public String getGenero() {
+        return genero;
+    }
 }
